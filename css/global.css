@@ -1,0 +1,79 @@
+/* Burası genel kullanacağımız şeyler için yani kendi kütüphanemizi yazmak gibi hazır style kullanmak amacıyla */
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+    /* color */
+.bg-dark-blue{
+    background: #062e51;
+}
+.bg-light-blue{
+    background: #336ea2;
+}
+.bg-color{
+    background:lightgrey;
+}
+.bg-colortwo{
+    background:#FFC017;
+}
+.bg-colorfour{
+    background:#576CBC
+}
+.container{
+    width: 70rem;
+    margin:auto;
+}
+.btn{
+    border-radius: 15px;
+    background-color: #062e51;
+    color: white;
+    border: 2px solid white;
+}
+.btn:hover{
+
+    background-color:#FFC017;
+    color: #062e51;
+    border: 2px solid #062e51;
+}
+.btn-danger{
+    border-radius: 15px;
+    background-color: #062e51;
+    color: white;
+    border: 2px solid white;
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
+.btn-danger:hover{
+
+    background-color:#FFC017;
+    color: #062e51;
+    border: 2px solid #062e51;
+}
+.title{
+    text-align: center;
+    font-size: 1.25rem;
+}
+.recs{
+    width: 30rem;
+    margin:auto;
+}
+.form-group{
+    padding:0.25 0;
+    margin-top: 1rem;
+}
+.form-group label{
+    display: block;
+}

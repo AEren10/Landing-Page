@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    display: flex; 
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+#navbar ul{
+    display: flex;
+    list-style-type:none;
+
+}
+#navbar ul li{
+    padding: 0.5rem;
+}
+#home{
+    border-bottom: 1px solid black;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    width: 17rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+      
+}
+.section img{
+    border-radius: 100%;
+    margin-bottom: 0.5rem;
+}
+.section p{
+    font-style: italic;
+    margin: 0.5rem;
+}
+.section a{
+    margin-top: 1rem;
+    padding: 0.5rem 3rem;
+}
+/* alt section */
+#about{
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: #576CBC;
+
+}
+#about .items{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+#about .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 2rem;
+}
+#about .part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+#about .part h3{
+    margin-left: 0.5rem;
+}
+#about .items .item:hover{
+    width: 33%;
+    background-color:#FFC017;
+    color: #062e51;
+    border: 2px solid #062e51;
+    border-radius: 12px;
+}
+/* infolar */
+#info{
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+}
+#info .infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#info .infos .info{
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 33%;
+}
+#info .info .info-image{
+    margin-bottom: 1rem;
+    position: relative;
+    
+}
+#info .info .info-image img{
+    border-radius: 10px;
+    width: 330px; ;
+    height: 180px;
+    border: 2px solid black;
+    
+}
+#info .info .info-image span{
+    background-color:#062e51;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position:absolute;
+    bottom: 5px;
+    left: 0;
+
+}
+#info .infos .info .info-chapter .description{
+    margin-top: 1rem;
+    text-align: center;
+    width: 320px;
+}
+#footer{
+    padding: 1rem; 
+    background-color:#576CBC;
+}
+#footer .footer-form{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size:1rem;
+    resize:none;     /*bu komut message labelinin büyümesini engelliyo sabit kalmasını sağlıyo */
+    border-radius: 10px;
+}
